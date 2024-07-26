@@ -49,8 +49,8 @@ class MaandamanoQuest:
                 self.colored_print("Thank you for playing Maandamano Quest!", "\033[92m")
                 break
             else:
-                self.colored_print("Invalid choice. Please try again.", "\033[91m")
-                time.sleep(1)
+                self.colored_print("Invalid choice. Please try again. Choose 1 to 4", "\033[91m")
+                time.sleep(5)
                 
     def new_game(self):
         self.clear_screen()
